@@ -8,5 +8,6 @@ export const routes: Routes = [
   {path: 'geo', loadChildren: './demo-geo/index#DemoGeoModule'},
   {path: 'detailed-targeting', loadChildren: './demo-detailed-targeting/index#DemoDetailedTargetingModule'},
   {path: 'targeting', loadChildren: './demo-targeting/index#DemoTargetingModule'},
+  {path: 'frontend-test', loadChildren: './frontend-test/index#FrontendTestModule'},
   {path: '**', component: NotFound404Component}
 ];

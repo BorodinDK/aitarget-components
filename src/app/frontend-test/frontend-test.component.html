@@ -1,0 +1,9 @@
+<div class="frontend-test">
+  <div (click)="imageClick($event)" class="frontend-test__wrapper">
+    <div class="frontend-test__box" [style.transform]="style">
+      <img class="frontend-test__front" src="{{imageURL[0]}}">
+      <img class="frontend-test__back" src="{{imageURL[1]}}">
+    </div>
+  </div>
+  <div class="frontend-test__direction">{{direction}}</div>
+</div>
